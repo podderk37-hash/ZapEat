@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 
 import SignIn from './pages/SignIn'
-import SignUp from './pages/SignUP'
+import SignUp from './pages/SignUp'
 import ForgotPassword from './pages/ForgotPassword'
 import useGetCurrentUser from './hooks/useGetCurrentUser'
 import { useDispatch, useSelector } from 'react-redux'
